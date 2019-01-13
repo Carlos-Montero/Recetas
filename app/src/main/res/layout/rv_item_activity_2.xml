@@ -26,14 +26,14 @@
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:text="Nombre_Paso"
-                        android:id="@+id/text_food_title" />
+                        android:id="@+id/nombre_paso" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:text="Duracion_Paso"
-                        android:id="@+id/text_food_description" />
+                        android:id="@+id/duracion_paso" />
         </LinearLayout>
 
     </LinearLayout>
