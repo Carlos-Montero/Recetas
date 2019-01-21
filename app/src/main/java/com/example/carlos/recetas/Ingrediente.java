@@ -4,7 +4,7 @@ package com.example.carlos.recetas;
 
 
 public class Ingrediente {
-    private String nombre, cantidad;
+    private String nombre, cantidad, descripcion;
 
     public Ingrediente(){
     }
@@ -12,6 +12,7 @@ public class Ingrediente {
     public Ingrediente(String nombre, String cantidad){
         this.nombre=nombre;
         this.cantidad=cantidad;
+        this.descripcion=descripcion;
     }
 
     public String getNombre() {
@@ -30,5 +31,11 @@ public class Ingrediente {
         this.cantidad=cantidad;
     }
 
+    public String getDescripcion() {
+        return descripcion;
+    }
 
+    public void setDescripcion(String descripcion){
+        this.descripcion=descripcion;
+    }
 }

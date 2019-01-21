@@ -36,7 +36,7 @@ public class IngredienteActivity extends AppCompatActivity {
 
 
         //BOTON PARA HACER EL INTENT Y SALTAR A LA SEGUNDA ACTIVITY
-        public void toSecondActivity (View v){
+        public void toMainActivity (View v){
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         }
